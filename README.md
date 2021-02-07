@@ -1,6 +1,11 @@
 # VICOROB DBT Challenge participation
 
-Based on duke-dbt-data 
+Participation on the DBT Challenge http://spie-aapm-nci-dair.westus2.cloudapp.azure.com/competitions/4 from the VICOROB research group (University of Girona, Spain). 
+
+Contact: Robert Marti, robert.marti@udg.edu
+
+
+Using functions from duke-dbt-data 
 
 https://github.com/MaciejMazurowski/duke-dbt-data
 
@@ -13,11 +18,11 @@ Pre-processing of DBT images to generate 2D slices and bounding boxes to be trai
 
 - DBT_detectron.ipynb
 
-Implementation of detectron training with the DBT dataset
+Implementation of detectron training with the OMIDB and DBT dataset
 
 - inference_DBT.ipynb
 
-Inference of new images (validation provided in the web page or own dataset)
+Inference of new images (validation provided in the web page)
 
 # Used from dubke-dbt-data
 
