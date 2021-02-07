@@ -15,43 +15,11 @@ Pre-processing of DBT images to generate 2D slices and bounding boxes to be trai
 
 Implementation of detectron training with the DBT dataset
 
-- inference_DBT_localEval.ipynb
 - inference_DBT.ipynb
 
 Inference of new images (validation provided in the web page or own dataset)
 
-
-
-## old stuff from Duke...
-
-
-## docker
-
-Build docker image:
-
-```
-docker build -t duke-dbt .
-```
-
-Run container bash:
-
-```
-docker run --rm -it \
-  -v `pwd`:/duke-dbt \
-  -v /path/to/data:/data \
-  -p 8889:8889 \
-  duke-dbt bash
-```
-
-Replace `/path/to/data` with a path to the downloaded data folder.
-
-## jupyter notebook
-
-Serve jupyter notebook from the container:
-
-```
-jupyter notebook --allow-root --ip=0.0.0.0 --port=8889
-```
+# Used from dubke-dbt-data
 
 ## read dicom image
 
