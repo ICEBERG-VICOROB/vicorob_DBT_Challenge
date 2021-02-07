@@ -10,8 +10,7 @@ Using functions from duke-dbt-data
 https://github.com/MaciejMazurowski/duke-dbt-data
 
 
-## Vicorob additions
-
+## Files
 - pre_process_rm.ipynb
 
 Pre-processing of DBT images to generate 2D slices and bounding boxes to be trained in detectron
@@ -24,7 +23,7 @@ Implementation of detectron training with the OMIDB and DBT dataset
 
 Inference of new images (validation provided in the web page)
 
-# Used from dubke-dbt-data
+## From dubke-dbt-data
 
 ## read dicom image
 
