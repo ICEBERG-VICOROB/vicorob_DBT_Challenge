@@ -1,57 +1,29 @@
 # VICOROB DBT Challenge participation
 
-Based on duke-dbt-data 
+Participation on the DBT Challenge http://spie-aapm-nci-dair.westus2.cloudapp.azure.com/competitions/4 from the VICOROB research group (University of Girona, Spain). 
+
+Contact: Robert Marti, robert.marti@udg.edu
+
+
+Using functions from duke-dbt-data 
 
 https://github.com/MaciejMazurowski/duke-dbt-data
 
 
-## Vicorob additions
-
+## Files
 - pre_process_rm.ipynb
 
 Pre-processing of DBT images to generate 2D slices and bounding boxes to be trained in detectron
 
 - DBT_detectron.ipynb
 
-Implementation of detectron training with the DBT dataset
+Implementation of detectron training with the OMIDB and DBT dataset
 
-- inference_DBT_localEval.ipynb
 - inference_DBT.ipynb
 
-Inference of new images (validation provided in the web page or own dataset)
+Inference of new images (validation provided in the web page)
 
-
-
-## old stuff from Duke...
-
-
-## docker
-
-Build docker image:
-
-```
-docker build -t duke-dbt .
-```
-
-Run container bash:
-
-```
-docker run --rm -it \
-  -v `pwd`:/duke-dbt \
-  -v /path/to/data:/data \
-  -p 8889:8889 \
-  duke-dbt bash
-```
-
-Replace `/path/to/data` with a path to the downloaded data folder.
-
-## jupyter notebook
-
-Serve jupyter notebook from the container:
-
-```
-jupyter notebook --allow-root --ip=0.0.0.0 --port=8889
-```
+## From dubke-dbt-data
 
 ## read dicom image
 
